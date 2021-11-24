@@ -1,0 +1,29 @@
+* {
+  margin: auto;
+  text-align: center;
+}
+.cell {
+  width: 40px;
+  background: white;
+  border: 1px solid black;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.ground {
+  background-color: brown;
+}
+
+.sky {
+  background-color: white;
+}
+
+.modal {
+  position: absolute;
+  text-align: center;
+  background-color: grey;
+  width: 200px;
+  height: 100px;
+  /* visibility: hidden; */
+}
