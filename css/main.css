@@ -2,28 +2,91 @@
   margin: auto;
   text-align: center;
 }
+
+body {
+  background-image: url("/img/sib.jpg");
+  background-size: auto;
+}
+
+.header img {
+  margin-top: 20px;
+  width: 20%;
+}
+
+button {
+  background-color: black;
+  color: #ffe300;
+  margin-top: 30px;
+  height: 50px;
+  width: 120px;
+}
+
+table {
+  border-collapse: collapse;
+}
+h1 {
+  color: #ffe300;
+  text-shadow: 1px 5px black;
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+h3 {
+  color: #ffe300;
+  text-shadow: 1px 5px black;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+table img {
+  width: 15px;
+  height: 15px;
+}
+
 .cell {
   width: 40px;
-  background: white;
-  border: 1px solid black;
   height: 40px;
   text-align: center;
   font-size: 1.5em;
 }
 
 .ground {
-  background-color: brown;
+  background-color: #787dbc;
+  border-bottom: 4px solid #787dbc;
+  border-right: 4px solid #007b8f;
 }
 
 .sky {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 
 .modal {
+  background-image: url("/img/modal.jpg");
+  /* background-color: black; */
+  width: 300px;
+  height: 300px;
   position: absolute;
-  text-align: center;
-  background-color: grey;
-  width: 200px;
-  height: 100px;
-  /* visibility: hidden; */
+  top: 35%;
+  left: 42%;
+  visibility: hidden;
+}
+.modal span {
+  color: #007b8f;
+  text-shadow: 0px 0px #ffe300;
+  position: absolute;
+  top: 63%;
+  left: 39%;
+}
+.modal button {
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 80px;
+  top: 75%;
+  left: 35%;
 }

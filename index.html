@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 
-<body onload="init()" onkeydown="onKeyDown(event)">
+<body onkeydown="onKeyDown(event)">
     <div class="header">
-        <h1>SPACE INVADERS</h1>
-        <H3>SCORE : <span>0</span></H3>
+        <img src="/img/sih.png" alt="">
+        <h1>SCORE : <span>0</span></h1>
+        <h3>SUPER SHOOTS LEFT <span>3</span></h3>
     </div>
+    <button class="start" onclick="init()">START GAME</button>
     <div class="modal">
-        <h3>YOU <span></span></h3>
-        <button onclick="init()">Restart</button>
+        <h3><span></span></h3>
+        <button onclick="restartGame()">Restart</button>
     </div>
     <div class="container">
         <table class="board"></table>
