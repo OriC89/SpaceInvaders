@@ -5,7 +5,6 @@ const LASERSUPER = 30
 var gHero = { pos: { i: 12, j: 5 }, isShoot: false }
 
 var gNegsBlowUp = false
-
 var gSuperShoot = false
 var gSuperCounter = 3
 

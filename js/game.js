@@ -96,6 +96,7 @@ function renderBoard(board) {
                     break
                 case SPACESWEET:
                     strHTML += SPACESWEET
+                    break
             }
             strHTML += '</td>'
         }
