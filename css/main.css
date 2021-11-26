@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("./img/sib.jpg");
+  background-image: url("../img/sib.jpg");
   background-size: auto;
 }
 
@@ -63,7 +63,7 @@ table img {
 }
 
 .modal {
-  background-image: url("/img/modal.jpg");
+  background-image: url("../img/modal.jpg");
   /* background-color: black; */
   width: 300px;
   height: 300px;
