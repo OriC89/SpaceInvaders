@@ -55,9 +55,7 @@ table img {
 }
 
 .ground {
-  background-color: #787dbc;
-  border-bottom: 4px solid #787dbc;
-  border-right: 4px solid #007b8f;
+  background-color: rgb(0, 0, 0);
 }
 
 .sky {
