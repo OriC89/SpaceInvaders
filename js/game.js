@@ -24,7 +24,7 @@ const SPACESWEET = '🍬'
 // var bunker
 
 
-var HERO_IMG = '<img src="/img/sis.png" alt="">'
+var HERO_IMG = '<img src="img/sis.png" alt="">'
 
 // Matrix of cell objects. e.g.: {type: SKY, gameObject: ALIEN}
 var gBoard;
