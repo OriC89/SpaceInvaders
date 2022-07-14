@@ -4,7 +4,7 @@ const ALIEN_SPEED = 500
 var gAliensTopRowIdx = 0
 var gAliensBottomRowIdx = 2
 
-var gIntervalAliens;
+var gIntervalAliens
 var gIsFrozen = false
 
 
@@ -101,7 +101,7 @@ function shiftBoardDown(board, fromI, toI) {
             if (board[12][j].gameObject === ALIEN) {
                 // SET GAME OVER CONDITION
                 if (checkVictory()) {
-                    gameOver('LOST!');
+                    gameOver('LOST!')
                 }
                 return
             }

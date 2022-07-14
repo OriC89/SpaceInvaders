@@ -109,7 +109,6 @@ function blinkLaser(pos) {
     }
 
     var nextCell = getElCell({ i: pos.i - 1, j: pos.j })
-    // console.log('targetCell:', targetCell)
     if (nextCell.innerText === ALIEN) {
 
         if (gNegsBlowUp) {

@@ -5,41 +5,38 @@
 
 body {
   background-image: url("../img/sib.jpg");
-  background-size: auto;
 }
 
 .header img {
-  margin-top: 20px;
-  width: 20%;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
 }
 
 button {
-  background-color: black;
-  color: #ffe300;
-  margin-top: 30px;
+  background-color: rgb(249, 249, 249);
+  color: #000000;
   height: 50px;
   width: 120px;
 }
 
 table {
   border-collapse: collapse;
+  border: 1px solid white;
 }
+
 h1 {
   color: #ffe300;
   text-shadow: 1px 5px black;
   font-size: 35px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 h3 {
-  color: #ffe300;
-  text-shadow: 1px 5px black;
-  font-size: 15px;
+  color: #ffffff;
+  font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 table img {
@@ -64,27 +61,35 @@ table img {
 
 .modal {
   background-image: url("../img/modal.jpg");
-  /* background-color: black; */
+  background-size: cover;
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 35%;
-  left: 42%;
+  padding: 2rem 2rem;
+  border: 1px solid #ffe300;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   visibility: hidden;
 }
+
 .modal span {
-  color: #007b8f;
-  text-shadow: 0px 0px #ffe300;
   position: absolute;
-  top: 63%;
-  left: 39%;
+  color: #ffffff;
+  text-shadow: 0px 0px #ffe300;
+  right: 0;
+  left: 0;
+  bottom: 100px;
 }
+
 .modal button {
   position: absolute;
-  background-color: black;
-  color: white;
+  background-color: #ffe300;
+  color: rgb(0, 0, 0);
   font-size: 20px;
-  width: 80px;
-  top: 75%;
-  left: 35%;
+  border-radius: 15px;
+  left: 0;
+  right: 0;
+  bottom: 20px;
 }
